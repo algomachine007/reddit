@@ -9,6 +9,10 @@
   },
   "author": "",
   "license": "ISC",
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "type": "module",
   "dependencies": {
     "@prisma/client": "^4.1.1",
     "nodemon": "^2.0.19",
